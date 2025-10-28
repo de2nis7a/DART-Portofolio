@@ -5,14 +5,11 @@
 /// - **User Input and Loops:** Uses 'dart:io' for continuous input and a 'while' loop
 ///   to keep the game running until the correct number is guessed.
 /// - **Function Modularity:** Separates the hint logic into a dedicated function.
-///
-/// NOTE: For simplicity, it uses the bang operator '!' and lacks robust try-catch
-/// error handling for non-numeric user input.
+
 
 import 'dart:math';
 import 'dart:io';
 
-// --- MAIN GAME LOGIC ---
 void main() {
   // Generates a random integer between 1 and 100 (inclusive).
   final intValue = Random().nextInt(100) + 1;
@@ -49,7 +46,6 @@ void main() {
   print('\n🎉 Right number! You guessed it: $intValue');
 }
 
-// --- HINT LOGIC ---
 void hint(int correctValue, int userGuess) {
   if (correctValue < userGuess) {
     print("Too high. ⬇️");

@@ -4,7 +4,6 @@
 /// which is a key demonstration of recursive programming in Dart.
 
 void main() {
-  // Example usage
   int number = 29;
   if (isPrime(number)) {
     print("$number is a prime number.");

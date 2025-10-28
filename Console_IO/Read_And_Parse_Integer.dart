@@ -1,7 +1,7 @@
 /// This file demonstrates basic user input handling using the 'dart:io' library.
 /// The function asks the user for a student number, reads the input as a String,
 /// and explicitly converts (parses) it into an integer ('int.parse()') before output.
-/// NOTE: The bang operator '!' is used to assert that the input is non-null.
+/// The bang operator '!' is used to assert that the input is non-null.
 import 'dart:io';
 
 void askForStudentNumberRobust() {

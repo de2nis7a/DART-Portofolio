@@ -6,9 +6,6 @@
 /// - **State and Behavior:** Encapsulating properties (x, y, width, length) and defining methods 
 ///   ('getArea', 'getPerimeter') that act on the object's state.
 /// - **Method Overriding:** A custom 'toString()' method for detailed and calculated output.
-///
-/// NOTE: The perimeter calculation (x * 2 + y * 2) is currently based on coordinates 
-/// rather than the 'width' and 'length' fields, which should be corrected for accuracy.
 
 class Rectangle{
   double x;

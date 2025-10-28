@@ -63,10 +63,6 @@ String compress(int n, String text) {
 
 
 void main(){
-//String text = '''Learning Dart is fun
-//Flutter and is Dart are powerful
-//Dart makes Flutter is development fast''';
-//print(compress(2, text));
 String compressedText = '''Learning fun
 Flutter and are powerful
 makes Flutter development fast

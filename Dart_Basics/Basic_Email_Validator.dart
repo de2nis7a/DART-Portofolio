@@ -5,7 +5,6 @@
 /// - **String Validation:** Using 'startsWith()' and 'endsWith()' methods for basic format checking.
 /// - **Boolean Logic:** Returning true or false based on the conditional check.
 /// - **Concise Syntax:** The 'if-else' block can be simplified into a single return statement 
-///   for more idiomatic Dart code (see suggested improvement).
 
 
 bool isValidEmail(String email) => 

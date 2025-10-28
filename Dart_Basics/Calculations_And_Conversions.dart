@@ -3,11 +3,9 @@
 /// and complex geometric calculations (Pythagorean theorem) using 'dart:math'.
 import 'dart:math';
 void main() {
-  // Test Conversions
   eurosToPounds(20);
   fahrenheitToCelsius(10);
   print('---');
-  // Test Complex Calculation
   // Calculates hypotenuse for cathetus c1=3, c2=4 (Result should be 5.0)
   print('Hypotenuse: ${calculateHypotenuse(3, 4)}'); 
 }
